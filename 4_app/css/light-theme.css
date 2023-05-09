@@ -3,6 +3,17 @@ body.light {
     color: var(--color-dark-black);
 }
 
+body.light::-webkit-scrollbar {
+    width: 1rem;
+    padding: 0.25rem;
+    background-color: var(--color-light);
+    transition: 1000ms;
+}
+
+body.light::-webkit-scrollbar-thumb {
+    background-color: var(--color-light-green);
+    border-radius: 10px;
+}
 
 .light .toggleBtn {
     background: var(--color-dark-black);
