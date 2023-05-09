@@ -125,3 +125,7 @@ body.light {
     background-color: var(--color-light);
     border: 3px solid var(--color-dark-black);
 }
+
+.light #contact .icons-gallery ul li a {
+    color: var(--color-dark-black);
+}
