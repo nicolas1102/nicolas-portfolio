@@ -73,10 +73,16 @@ body.light {
     font-weight: 900;
 }
 
-#presentation #presentation-info h3 {
-    font-size: 1.5rem;
+.light .icons-gallery ul li {
+    background-color: var(--color-light);
+    border: 3px solid var(--color-dark-black);
+    box-shadow: -10px 10px var(--shadow-dark);
 }
 
-#presentation #presentation-info p {
-    text-align: justify;
+.light .icons-gallery ul li img {
+    opacity: 0.4;
+}
+
+.light .icons-gallery ul li:hover {
+    box-shadow: -15px 15px var(--shadow-dark-full);
 }

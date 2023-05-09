@@ -54,3 +54,11 @@
 #green {
     color: var(--color-bright-green);
 }
+
+#presentation #presentation-info h3 {
+    font-size: 1.5rem;
+}
+
+#presentation #presentation-info p {
+    text-align: justify;
+}

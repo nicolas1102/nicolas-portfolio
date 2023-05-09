@@ -1,6 +1,14 @@
 const sections = document.querySelectorAll('main > section');
 const list = document.querySelectorAll('ul .list');
 
+// add active class in hovered list
+function activeLink() {
+    list.forEach((item) => item.classList.remove('active'));
+    this.classList.add('active');
+}
+
+list.forEach((item) => item.addEventListener('click', activeLink));
+
 // event to change menu when a section is focus
 sections.forEach((sec) => {
     sec.addEventListener('mouseover', () => {
