@@ -77,8 +77,8 @@ body {
 }
 
 main>section {
-    margin: 4rem 0;
-    padding: 1rem 15rem;
+    margin: 4rem 15rem;
+    padding: 1rem 0;
 }
 
 h2 {

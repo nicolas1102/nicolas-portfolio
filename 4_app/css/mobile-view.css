@@ -1,0 +1,99 @@
+@media (max-width: 75rem) {
+    main>section {
+        margin: 5rem 5rem;
+        padding: 1rem 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .navigation ul li a {
+        padding: 0.75rem;
+    }
+
+    .navigation ul li a .icon {
+        font-size: 1.5rem;
+    }
+
+    .navigation ul li a .text {
+        font-size: 0.75rem;
+    }
+
+    .icons-gallery ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #projects .projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .light .icons-gallery ul li img {
+        opacity: 1;
+    }
+
+    .icons-gallery ul li img {
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 48rem) {
+    main>div {
+        margin: 3rem 5rem;
+        padding: 1rem 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .navigation ul li a {
+        padding: 0.7rem;
+    }
+
+    .navigation ul li a .icon {
+        font-size: 1.2rem;
+    }
+
+    .navigation ul li a .text {
+        font-size: 0.7rem;
+    }
+
+    #presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .light .icons-gallery ul li img {
+        opacity: 1;
+    }
+
+    .icons-gallery ul li img {
+        opacity: 1;
+    }
+
+    .icons-gallery ul {
+        grid-template-columns: 1fr;
+    }
+
+    #contact {
+        margin-bottom: 8rem;
+    }
+}

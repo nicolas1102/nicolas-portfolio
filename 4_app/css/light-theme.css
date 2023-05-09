@@ -3,6 +3,7 @@ body.light {
     color: var(--color-dark-black);
 }
 
+
 .light .toggleBtn {
     background: var(--color-dark-black);
     border: 2px solid var(--color-light);
@@ -16,6 +17,11 @@ body.light {
 
 .light .toggleBtn .icon {
     color: var(--color-white);
+}
+
+.light #background-pattern {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.626) 5%,
+            transparent 5%);
 }
 
 .light .navigation ul {
