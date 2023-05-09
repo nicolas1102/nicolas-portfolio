@@ -1,2 +1,2 @@
-# terminal-portfolio
+# portfolio
  
