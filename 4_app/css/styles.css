@@ -63,12 +63,6 @@ body {
     transition: 0.5s;
 }
 
-.light .toggleBtn {
-    background: var(--color-dark-black);
-    border: 2px solid var(--color-light);
-    box-shadow: -5px 5px var(--shadow-dark);
-}
-
 .toggleBtn:hover {
     background: #0077ff;
     box-shadow: -8px 8px var(--shadow-full);
@@ -80,4 +74,9 @@ body {
 
 .toggleBtn .icon:hover {
     color: #f6ff00;
+}
+
+main>div {
+    margin: 4rem 0;
+    padding: 1rem 15rem;
 }
