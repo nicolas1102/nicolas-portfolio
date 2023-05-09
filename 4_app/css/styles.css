@@ -80,3 +80,18 @@ main>div {
     margin: 4rem 0;
     padding: 1rem 15rem;
 }
+
+h2 {
+    font-size: 4rem;
+    width: fit-content;
+    color: var(--color-white);
+    padding: 0 1rem;
+    border: 3px solid var(--color-white);
+    box-shadow: -5px 5px var(--shadow);
+    background-color: var(--color-green);
+    transition: 0.5s;
+}
+
+h2:hover {
+    box-shadow: -10px 10px var(--shadow-full);
+}

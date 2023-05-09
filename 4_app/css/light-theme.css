@@ -37,3 +37,46 @@ body.light {
     color: var(--color-dark-black);
     opacity: 0.7;
 }
+
+.light h2 {
+    color: var(--color-dark-black);
+    box-shadow: -5px 5px var(--shadow-dark);
+    border: 3px solid var(--color-dark-black);
+    background-color: var(--color-light-green);
+}
+
+.light h2:hover {
+    box-shadow: -10px 10px var(--shadow-dark-full);
+}
+
+.light #presentation .img-container {
+    box-shadow: -15px 15px var(--shadow-dark-green);
+}
+
+.light #presentation .img-container:hover {
+    box-shadow: -25px 25px var(--shadow-dark-green-full);
+}
+
+.light #presentation #presentation-info {
+    background-color: var(--color-white);
+    border: 3px solid var(--color-dark-black);
+    box-shadow: -10px 10px var(--shadow-dark);
+}
+
+.light #presentation #presentation-info:hover {
+    border: 3px solid var(--color-dark-black);
+    box-shadow: -15px 15px var(--shadow-dark-full);
+}
+
+.light #green {
+    color: #096609;
+    font-weight: 900;
+}
+
+#presentation #presentation-info h3 {
+    font-size: 1.5rem;
+}
+
+#presentation #presentation-info p {
+    text-align: justify;
+}
