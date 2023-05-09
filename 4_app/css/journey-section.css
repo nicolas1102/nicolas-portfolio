@@ -1,0 +1,51 @@
+#timeline {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    list-style: disc;
+}
+
+#timeline li {
+    margin: 0;
+    padding: 1rem 1rem;
+    border-left: 3px solid var(--color-white);
+}
+
+#timeline .moment .moment-details {
+    transition: 0.5s;
+    padding: 0.7rem;
+    background-color: var(--color-dark-black);
+    border: 3px solid var(--color-white);
+}
+
+#timeline .moment .moment-details:hover {
+    border: 3px solid var(--color-white);
+    box-shadow: -5px 5px var(--shadow-full);
+}
+
+#timeline .moment div h3 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#timeline .moment div h3 .date {
+    margin: 1rem 1rem 1rem 0;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: var(--color-white);
+    color: var(--color-dark-black);
+}
+
+#timeline .moment div h3 .timer {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: var(--color-bright-green);
+}
+
+#timeline .moment div p {
+    text-align: justify;
+}

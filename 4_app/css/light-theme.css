@@ -101,3 +101,27 @@ body.light {
     font-weight: 900;
     color: var(--color-light-green);
 }
+
+.light #timeline .moment div h3 .timer {
+    color: var(--color-light-green);
+    font-weight: 900;
+}
+
+.light #timeline .moment div h3 .date {
+    background-color: var(--color-dark-black);
+    color: var(--color-white);
+}
+
+.light #timeline .moment .moment-details:hover {
+    border: 2px solid var(--color-dark-black);
+    box-shadow: -5px 5px var(--shadow-dark-full);
+}
+
+.light #timeline li {
+    border-left: 3px solid var(--color-dark-black);
+}
+
+.light #timeline .moment .moment-details {
+    background-color: var(--color-light);
+    border: 3px solid var(--color-dark-black);
+}
