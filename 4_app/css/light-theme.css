@@ -86,3 +86,18 @@ body.light {
 .light .icons-gallery ul li:hover {
     box-shadow: -15px 15px var(--shadow-dark-full);
 }
+
+.light #projects .projects-list .project {
+    background-color: var(--color-light);
+    border: 3px solid var(--color-dark-black);
+    box-shadow: -10px 10px var(--shadow-dark);
+}
+
+.light #projects .projects-list .project:hover {
+    box-shadow: -15px 15px var(--shadow-dark-full);
+}
+
+.light #projects .projects-list .project .details .link-project {
+    font-weight: 900;
+    color: var(--color-light-green);
+}

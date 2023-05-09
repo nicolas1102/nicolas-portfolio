@@ -1,0 +1,75 @@
+
+#projects .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 4rem 0rem;
+}
+
+#projects .projects-list .project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    background-color: var(--color-dark-black);
+    border: 3px solid var(--color-white);
+    box-shadow: -10px 10px var(--shadow);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#projects .projects-list .project .image-container {
+    overflow: hidden;
+    height: 20rem;
+}
+
+#projects .projects-list .project .image-container img {
+    width: 100%;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+#projects .projects-list .project:hover .image-container img {
+    scale: 1.2;
+}
+
+#projects .projects-list .project:hover {
+    box-shadow: -15px 15px var(--shadow-full);
+}
+
+#projects .projects-list .project .details {
+    margin: 1rem;
+}
+
+#projects .projects-list .project .details .technologies ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+#projects .projects-list .project .details .technologies ul li {
+    margin: 0.5rem;
+}
+
+#projects .projects-list .project .details .technologies ul li img {
+    width: 2.5rem;
+}
+
+#projects .projects-list .project .details h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+#projects .projects-list .project .details p {
+    text-align: justify;
+}
+
+#projects .projects-list .project .details .link-project {
+    color: var(--color-bright-green);
+    text-align: right;
+    text-decoration: underline;
+}
