@@ -1,0 +1,13 @@
+body.light {
+    background-color: var(--color-light);
+    color: var(--color-dark-black);
+}
+
+.light .toggleBtn:hover {
+    background: #17212b;
+    box-shadow: -8px 8px var(--shadow-dark-full);
+}
+
+.light .toggleBtn .icon {
+    color: var(--color-white);
+}

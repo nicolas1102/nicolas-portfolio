@@ -1,0 +1,27 @@
+#background-pattern {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 0.1) 5%,
+        transparent 5%
+    );
+
+    background-position: 0% 0%;
+    background-size: 10vmin 10vmin;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -20;
+    transition: opacity 800ms ease, background-size 800ms ease;
+}
+
+.light #background-pattern {
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.626) 5%,
+        transparent 5%
+    );
+}

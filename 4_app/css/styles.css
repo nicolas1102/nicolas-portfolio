@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-white: rgb(202, 202, 202);
+    --color-light: rgb(190, 190, 190);
+    --color-light-2: rgb(131, 131, 131);
+    --color-dark-black: #1c1c1c;
+    --color-dark-black-2: #000000;
+    --color-dark-black-3: #101010;
+    --color-green: #213a21;
+    --color-bright-green: #3ea73e;
+    --color-light-green: #336033;
+    --shadow: rgba(255, 255, 255, 0.2);
+    --shadow-full: rgba(255, 255, 255, 0.8);
+    --shadow-dark: rgba(0, 0, 0, 0.5);
+    --shadow-dark-full: rgba(0, 0, 0, 0.9);
+    --shadow-green: rgba(37, 186, 35, 0.223);
+    --shadow-dark-green: rgba(4, 255, 0, 0.137);
+    --shadow-green-full: rgba(37, 186, 35, 0.489);
+    --shadow-dark-green-full: rgba(4, 255, 0, 0.337);
+    --shadow-dark-full: rgba(0, 0, 0, 0.9);
+}
+
+* {
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-dark-black);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    transition: 400ms;
+}
+
+.toggleBtn {
+    z-index: 100;
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #ffffff;
+    cursor: pointer;
+    border: 2px solid var(--color-dark-black);
+    box-shadow: -5px 5px var(--shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.light .toggleBtn {
+    background: var(--color-dark-black);
+    border: 2px solid var(--color-light);
+    box-shadow: -5px 5px var(--shadow-dark);
+}
+
+.toggleBtn:hover {
+    background: #0077ff;
+    box-shadow: -8px 8px var(--shadow-full);
+}
+
+.toggleBtn .icon {
+    color: var(--color-dark-black);
+}
+
+.toggleBtn .icon:hover {
+    color: #f6ff00;
+}
