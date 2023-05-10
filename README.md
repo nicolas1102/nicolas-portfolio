@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./4_app/media/images/preview/home.png)
+![](./media/images/preview/home.png)
 
 ### Links
 
