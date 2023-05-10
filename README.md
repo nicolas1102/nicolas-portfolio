@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://github.com/nicolas1102/nicolas-portfolio)
+- Live Site URL: [Live Site](https://nicolas1102.github.io/portfolio/)
 
 ## My process
 
