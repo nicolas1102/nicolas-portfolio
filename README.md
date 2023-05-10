@@ -17,7 +17,7 @@
 
 Users should be able to:
 
-- Login with the user and password "admin", so they will be redirect to the home page. Using Javascript for this logic.
+- See my information the technologies that I have basic management, my projects, my career and contact information.
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
